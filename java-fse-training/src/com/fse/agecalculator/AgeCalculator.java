@@ -5,7 +5,12 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
 public class AgeCalculator {
+
+	private static Log logger = LogFactory.getLog(AgeCalculator.class);
 
 	public static void main(String[] args) {
 
@@ -16,7 +21,7 @@ public class AgeCalculator {
 			String dateOfBirth = scanner.next();
 			DateTimeFormatter dateformatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 			Period period = Period.between(LocalDate.parse(dateOfBirth, dateformatter), LocalDate.now());
-			System.out.println("You are " + period.getYears() + " years, " + period.getMonths() + " months and "
+			logger.info("You are " + period.getYears() + " years, " + period.getMonths() + " months and "
 					+ period.getDays() + " days old");
 		} catch (Exception ex) {
 			ex.printStackTrace();

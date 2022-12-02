@@ -1,0 +1,22 @@
+02-Dec-2022 07:25:23 ERROR - Service.INVALID_CREDENTIALS
+java.lang.Exception: Service.INVALID_CREDENTIALS
+	at com.fse.loggerdemo.UserAuthentication.loginUser(UserAuthentication.java:13) [bin/:?]
+	at com.fse.loggerdemo.LoggerDemo.main(LoggerDemo.java:8) [bin/:?]
+02-Dec-2022 07:25:36 INFO - Jon logged in successfully
+02-Dec-2022 09:21:01 INFO - Jon logged in successfully
+02-Dec-2022 09:21:15 ERROR - Service.INVALID_CREDENTIALS
+java.lang.Exception: Service.INVALID_CREDENTIALS
+	at com.fse.loggerdemo.UserAuthentication.loginUser(UserAuthentication.java:13) [bin/:?]
+	at com.fse.loggerdemo.LoggerDemo.main(LoggerDemo.java:8) [bin/:?]
+02-Dec-2022 10:37:06 INFO - You are 30 years, 5 months and 11 days old
+02-Dec-2022 10:40:12 INFO - Welcome to Exam On Console
+02-Dec-2022 10:40:12 INFO - Are you ready (Y-Proceed,N-Stop)
+02-Dec-2022 10:40:21 INFO - Q 01. Which one of the following is not a java key word??
+ 1. this			 2. String
+ 3. char			 4. list
+02-Dec-2022 10:40:24 INFO - ====Next Question=======
+02-Dec-2022 10:40:24 INFO - Q 02. Which one of the following is not valid variable declaraion in java??
+ 1. myName			 2. declare_Type
+ 3. 1Week			 4. list_variables
+02-Dec-2022 10:43:26 INFO - Welcome to Exam On Console
+02-Dec-2022 10:43:26 INFO - Are you ready (Y-Proceed,N-Stop)
